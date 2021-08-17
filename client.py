@@ -1,7 +1,7 @@
 import socket
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-ip="192.168.0.159"
+ip="192.168.0.159" #enter the IP address of your system
 port=4040
 s.connect((ip,port))
 print("connected..")
